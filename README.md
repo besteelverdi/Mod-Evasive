@@ -25,13 +25,11 @@ Mod_evasive'ı kurmak için mevcut tüm modülleri kontrol edin:
 sudo apache2ctl -M
 sudo apache2ctl -M | grep evasive 
 
-
+## Mod Evasive Kurulumu
 Mod_evasive'i kurun:
-```markdown
-Syntax highlighted code block
+
 Etkinleştirilen modüllerin listesini görüntüleyin:
-```markdown
-Syntax highlighted code block
+
 Evasive.conf ve evasive.load dosyaları eklendi. /Etc/apache2/mods-available/mod-evasive.conf dosyası modül yapılandırma yönergelerini içerir. /Etc/apache2/mods-available/mod-evasive.load dosyası, Apache2'ye modülü dosya sisteminde nerede bulacağını söyler.
 
 Mod kaçınma modülü kendi başının çaresine bakar. komutla kontrol edebilirsiniz
