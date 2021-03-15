@@ -21,10 +21,10 @@ Yukarıdakilerden herhangi biri doğruysa 403 yanıtı gönderilir.Tek bir 403 o
 
 ## Mod Evasive Kurulumu
 Mod_evasive'ı kurmak için mevcut tüm modülleri kontrol edin:
-```markdown
+```markdown '''
 sudo apache2ctl -M
-sudo apache2ctl -M | grep evasive '''
-
+sudo apache2ctl -M | grep evasive 
+```markdown
 Mod_evasive'i kurun:
 ```markdown
 Syntax highlighted code block
